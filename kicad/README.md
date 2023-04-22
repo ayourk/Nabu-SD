@@ -30,7 +30,7 @@ Some changes from the original by Ken "The Codeman" Segler:
 Planned SD Card file naming scheme:  AHD12345.678
 * A - Drive letter
 * F or H - Floppy or HDD
-* D or I - Usually "D", but use "I" for things like flux images.
+* D or I - Usually "D", but use "I" for things like flux images.<br />
 The rest will be some sort of amalgamation of Cylinders, Heads, Sectors.  This planned naming convention is subject to change depending on suggestions.
 
 
