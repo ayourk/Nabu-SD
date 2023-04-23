@@ -4,7 +4,7 @@ Original design by Ken "The Codeman" Segler [Youtube](https://www.youtube.com/@k
 
 ## Description
 
-The goal of this project is to make the PIC into a WD compatible controller and function without any BIOS changes on the Nabu.  This means I'm going to have to learn how to write for the PIC in the project and what it takes to have it emulate a FDD/HDD controller as it uses the SD Card for storage.  The original project omitted the necessary flashable binary (or source) and links to the SD Card and Serial Card breakout boards.
+The goal of this project is to make the PIC into a WD compatible controller and function without any BIOS changes on the Nabu.  This means I'm going to have to learn how to write for the PIC in the project and what it takes to have it emulate a FDD/HDD controller as it uses the SD Card for storage.  The original project omitted the necessary flashable binary (or source) and links to the [SD Card](https://www.aliexpress.us/item/3256801675634754.html) and Serial Card breakout boards.
 
 * A PDF version of the schematic can be found [here](Nabu-SD.pdf).
 * Build of Materals (aka BOM) can be found [here](bom/ibom.html).
