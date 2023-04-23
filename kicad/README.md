@@ -18,14 +18,14 @@ Some changes from the original by Ken "The Codeman" Segler:
 * The project was completely rebuilt in KiCAD 6.0.11.
 * There are currently no Vias used with the 40-pin PDIP version of the PIC.
 * I've focused on using more SMD parts where possible (except for the PIC) to make it easier to mass produce via a Fab House (e.g. [JLCPCB](https://www.jlcpcb.com/)).
-* Corrected a few issues with the design with assistance from @SolderGirl.
+* Corrected a few issues with the design with assistance from [@Stefanie80](https://github.com/Stefanie80).
 
 ## TODO:
 
 * Write the PIC code with [MPLab X IDE](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide)
 * Create the SD Card and Serial Card breakouts and include them in schematic.
 * Create 3D Models (.step) for back plates for rear access to (1 or both) breakouts.
-* Package everything up for [Arcade Shopper](https://www.arcadeshopper.com/) to sell.
+* Package everything up for [Arcade Shopper](https://www.arcadeshopper.com/) [Github](https://github.com/arcadeshopper) to sell.
 
 Planned SD Card file naming scheme:  AHD12345.678
 * A - Drive letter
