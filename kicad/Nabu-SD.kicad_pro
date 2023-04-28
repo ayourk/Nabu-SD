@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.3,
-          "width": 0.3
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,11 +45,29 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.0
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "annular_width|162725400|40900000|ea9ad673-3f39-44c7-bd29-ffbaf6a6fd8c|00000000-0000-0000-0000-000000000000",
+        "annular_width|162725400|50900000|ece36403-8a4f-4682-828e-66bf74ab6361|00000000-0000-0000-0000-000000000000",
+        "clearance|161940000|40900000|ea9ad673-3f39-44c7-bd29-ffbaf6a6fd8c|97f779ad-8654-409f-8989-77a03a2aff58",
+        "clearance|161940000|50900000|ece36403-8a4f-4682-828e-66bf74ab6361|0f493a22-52d3-40b0-bf82-aa03f27bf30b",
+        "courtyards_overlap|129860001|53921320|4d415db9-498d-4dc1-aa22-76d5718fce85|871b3cf0-88e6-4e09-8f5d-da9c1fb2e82a",
+        "courtyards_overlap|129860001|78021320|da220397-5f06-49b9-819b-177b18a21fdf|ec3ff4e3-b865-413c-b061-e53ce2114b69",
+        "courtyards_overlap|130411539|37750001|4d415db9-498d-4dc1-aa22-76d5718fce85|683b9773-4270-4bd5-a53f-735ec2294c54",
+        "courtyards_overlap|130411539|61850001|3b3a5499-9187-454d-b572-5a75c74d6188|da220397-5f06-49b9-819b-177b18a21fdf",
+        "silk_over_copper|169625400|38910000|249fe1d2-2102-4cfc-9da5-7f29ab8d929d|3a1d6aca-fc2a-4377-bd08-27d983d8ece2",
+        "silk_over_copper|169625400|52880000|249fe1d2-2102-4cfc-9da5-7f29ab8d929d|0d885f8e-386d-49d3-9f9f-66e30a6bd732",
+        "track_dangling|146047900|67800000|9eb1c2c2-71f1-4d4c-881e-bf5c0f06061f|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -112,9 +130,16 @@
         "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
       },
-      "track_widths": [],
-      "via_dimensions": [],
-      "zones_allow_external_fillets": false,
+      "track_widths": [
+        0.0
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
+      "zones_allow_external_fillets": true,
       "zones_use_no_outline": true
     },
     "layer_presets": []
@@ -319,7 +344,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "unannotated": "error",
@@ -381,7 +406,7 @@
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
-      "intersheets_ref_show": false,
+      "intersheets_ref_show": true,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.375,
@@ -414,6 +439,14 @@
     [
       "5f21fbce-d2a7-42b2-922c-14b96cf14115",
       ""
+    ],
+    [
+      "d06b4d67-ee55-4f08-a167-7d7fd75d9f0e",
+      "MicroSD_Breakout"
+    ],
+    [
+      "2e0d8ec7-af9f-46be-8afa-5045d83789bd",
+      "Serial_Breakout"
     ]
   ],
   "text_variables": {}

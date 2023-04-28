@@ -19,11 +19,12 @@ Some changes from the original by Ken "The Codeman" Segler:
 * There are currently no Vias used with the 40-pin PDIP version of the PIC.
 * I've focused on using more SMD parts where possible (except for the PIC) to make it easier to mass produce via a Fab House (e.g. [JLCPCB](https://www.jlcpcb.com/)).
 * Corrected a few issues with the design with assistance from [@Stefanie80](https://github.com/Stefanie80).
+* Created the SD Card and Serial Card breakouts and included them in schematic.  I am using UJ2-MIBH-4-SMT-TR because of the 3mm stick-out from the board.
+* For the 2 Card breakouts, a lot of focus has been put into the amount of stick out of both the SD Card holder and the MicroUSB port so that a 3D Printed back plate can be used and still make it easy to remove a SD card or a MicroUSB cable.
 
 ## TODO:
 
 * Write the PIC code with [MPLab X IDE](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide)
-* Create the SD Card and Serial Card breakouts and include them in schematic.
 * Create 3D Models (.step) for back plates for rear access to (1 or both) breakouts.
 * Package everything up for [Arcade Shopper](https://www.arcadeshopper.com/) [Github](https://github.com/arcadeshopper) to sell.
 
