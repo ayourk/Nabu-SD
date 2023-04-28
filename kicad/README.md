@@ -26,7 +26,7 @@ Some changes from the original by Ken "The Codeman" Segler:
 
 * Write the PIC code with [MPLab X IDE](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide)
 * Create 3D Models (.step) for back plates for rear access to (1 or both) breakouts.
-* Package everything up for [Arcade Shopper](https://www.arcadeshopper.com/) [Github](https://github.com/arcadeshopper) to sell.
+* Package everything up for [Arcade Shopper](https://www.arcadeshopper.com/) ([Github](https://github.com/arcadeshopper)) to sell.
 
 Planned SD Card file naming scheme:  AHD12345.678
 * A - Drive letter
