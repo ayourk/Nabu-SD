@@ -1,6 +1,6 @@
 # SD Card Expansion & More!
 
-Original design by Ken "The Codeman" Segler [Youtube](https://www.youtube.com/@kensegler) [Github](https://github.com/TheCodeman)
+Original design by Ken "The Codeman" Segler ([Youtube](https://www.youtube.com/@kensegler)) ([Github](https://github.com/TheCodeman))
 
 ## Description
 
@@ -16,7 +16,7 @@ The goal of this project is to make the PIC into a WD compatible controller and 
 Some changes from the original by Ken "The Codeman" Segler:
 * CR2032 battery - This is more common in PCs than the CR1220.
 * The project was completely rebuilt in KiCAD 6.0.11.
-* There are currently no Vias used with the 40-pin PDIP version of the PIC.
+* There are currently no Vias used on the main board with the 40-pin PDIP version of the PIC.
 * I've focused on using more SMD parts where possible (except for the PIC) to make it easier to mass produce via a Fab House (e.g. [JLCPCB](https://www.jlcpcb.com/)).
 * Corrected a few issues with the design with assistance from [@Stefanie80](https://github.com/Stefanie80).
 * Created the SD Card and Serial Card breakouts and included them in schematic.  I am using UJ2-MIBH-4-SMT-TR because of the 3mm stick-out from the board.
