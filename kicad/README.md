@@ -21,7 +21,7 @@ Some changes from the original by Ken "The Codeman" Segler:
 * Corrected a few issues with the design with assistance from [@Stefanie80](https://github.com/Stefanie80).
 * Created the SD Card and Serial Card breakouts and included them in schematic.  I am using UJ2-MIBH-4-SMT-TR because of the 3mm stick-out from the board.
 * For the 2 Card breakouts, a lot of focus has been put into the amount of stick out of both the SD Card holder and the MicroUSB port so that a 3D Printed back plate can be used and still make it easy to remove a SD card or a MicroUSB cable.
-* Created a 3D Model (.step) for the Nabu back plate for rear access to (1 or both) breakouts.  2x M2x20 screws and nuts required.
+* Created a 3D Model (.step) for the Nabu back plate for rear access to (1 or both) breakouts.  2x M2x20 screws and nuts will be included with preprinted model.
 
 ## TODO:
 
